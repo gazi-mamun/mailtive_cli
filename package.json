@@ -1,0 +1,22 @@
+{
+  "name": "mailtive",
+  "version": "1.0.0",
+  "description": "Mailtive is a command-line utility that may assist anyone detect whether an email is active or not. It is also useful in filtering active emails from a list of emails.",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./commands.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gazi assadujjaman mamun",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cli-progress": "^3.12.0",
+    "commander": "^11.1.0",
+    "deep-email-validator": "^0.1.21",
+    "inquirer": "^9.2.11",
+    "nanospinner": "^1.1.0"
+  }
+}
